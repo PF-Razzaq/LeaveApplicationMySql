@@ -1,0 +1,36 @@
+.persondetail {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+}
+.persondetail .left {
+  width: 30%;
+  margin: 0 auto;
+}
+.persondetail .right {
+  width: 50%;
+  margin: 0 auto;
+}
+.employeedetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.left .img {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}

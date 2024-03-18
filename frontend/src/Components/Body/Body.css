@@ -1,0 +1,47 @@
+.body {
+  width: calc(100vw - 250px);
+  height: calc(100vh - 90px);
+}
+
+.main-leave {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.select-leave {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.leave-section {
+  margin-right: 86px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.leaves .my-div {
+  width: 390px;
+  background: gray;
+  text-align: center;
+  margin-top: 30px;
+  padding: 74px;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.leave-dropdown {
+  margin-right: 34px;
+}
+
+.hide-main {
+  display: none;
+}
